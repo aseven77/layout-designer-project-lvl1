@@ -126,11 +126,11 @@ p {
   justify-content: space-between;
 }
 
-.text-column--header {
+.section-header-column {
   margin-top: 233px;
 }
 
-.text-column__item {
+.text-column-item {
   width: 49%;
 }
 
@@ -211,7 +211,7 @@ p {
   background-color: #f5f4f0;
 }
 
-.cognitiveness-item--title {
+.cognitiveness-item-title {
   padding: 0;
 
   color: #fff;
@@ -219,11 +219,11 @@ p {
   background-color: transparent;
 }
 
-.cognitiveness-item--title h2 {
+.cognitiveness-item-title h2 {
   font-size: 52px;
 }
 
-.cognitiveness-item__number {
+.cognitiveness-number {
   margin-bottom: 30px;
 
   color: #42413c;
@@ -232,21 +232,21 @@ p {
   line-height: 1;
 }
 
-.cognitiveness-item__name {
+.cognitiveness-name {
   margin-bottom: 9px;
 }
 
-.cognitiveness-item--link:hover {
+.cognitiveness-link:hover {
   color: #fff;
 
   background: #fe8a02;
 }
 
-.cognitiveness-item--link:hover .cognitiveness-item__number {
+.cognitiveness-link:hover .cognitiveness-number {
   color: #fff;
 }
 
-.cognitiveness-item--link:hover .cognitiveness-item__name {
+.cognitiveness-link:hover .cognitiveness-name {
   color: #fff;
 }
 
@@ -256,19 +256,19 @@ p {
   margin-bottom: 100px;
 }
 
-.main-column__content:last-child {
+.main-content:last-child {
   margin-left: 30px;
 }
 
-.main-column__content:first-child {
+.main-content:first-child {
   margin-right: 30px;
 }
 
-.main-column__content p {
+.main-content p {
   font-size: 34px;
 }
 
-.main-column__img {
+.main-img {
   max-width: 540px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -279,7 +279,7 @@ p {
   font-size: 24px;
 }
 
-.main-head-text--white {
+.main-head-text-white {
   color: #fff;
 }
 
@@ -295,8 +295,14 @@ p {
   background: #b09a81;
 }
 
-.how--light {
+.how-light {
+  margin-bottom: 20px;
+  padding: 4px 8px;
+
   color: #42413c;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
 
   background: #fff;
 }
@@ -327,7 +333,7 @@ footer {
   margin-bottom: 5px;
 }
 
-.form__control {
+.form-control {
   width: 394px;
   padding-left: 15px;
 
@@ -337,7 +343,7 @@ footer {
   border: 0;
 }
 
-.form__control:focus {
+.form-control:focus {
   outline: 0;
 }
 
