@@ -135,11 +135,13 @@ p {
 }
 
 .btn {
+  position: relative;
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
-  padding: 0 24px;
+  height: 50px;
+  padding: 0 23px;
 
   color: #fff;
   font-weight: 600;
@@ -170,18 +172,22 @@ p {
 
   display: block;
   margin: 35px auto 0;
+
+  border: 0;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.section-1 {
+.section-what {
   margin-bottom: -100px;
   padding-bottom: 0;
 }
 
-.section-1 h2 {
+.section-what h2 {
   margin-bottom: 36px;
 }
 
-.section-2 {
+.section-cognitiveness {
   padding: 200px 0 80px;
 }
 
@@ -247,7 +253,7 @@ p {
 .main-column {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 72px;
+  margin-bottom: 100px;
 }
 
 .main-column__content:last-child {
@@ -258,8 +264,14 @@ p {
   margin-right: 30px;
 }
 
+.main-column__content p {
+  font-size: 34px;
+}
+
 .main-column__img {
   max-width: 540px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .main-head-text {
@@ -272,7 +284,7 @@ p {
 }
 
 .how {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   padding: 4px 8px;
 
   color: #fff;
@@ -297,7 +309,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   padding: 46px 75px 37px 55px;
 
   background-color: #42413c;
@@ -317,7 +329,7 @@ footer {
 
 .form__control {
   width: 394px;
-  padding-left: 16px;
+  padding-left: 15px;
 
   color: rgba(0, 0, 0, 0.2);
   font-size: 18px;
@@ -335,4 +347,15 @@ footer {
 
 .footer-text {
   font-size: 14px;
+}
+
+.form-btn::before {
+  width: 24px;
+  height: 24px;
+
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  content: '';
 }
