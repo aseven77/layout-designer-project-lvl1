@@ -7,6 +7,7 @@
   --white-light: #d7ccc0;
   --light: #f5f4f0;
   --default: #fe8a02;
+  --default-hover: #ea7600;
   --default-dark: #42413c;
   --dark: #2a2626;
   --dark-light: #908d8b;
@@ -173,7 +174,7 @@ p {
 }
 
 .btn:hover {
-  background: #ea7600;
+  background: var(--default-hover);
 }
 
 .t-center {
