@@ -140,7 +140,7 @@ p {
   justify-content: space-between;
 }
 
-.text-column--header {
+.section-header-column {
   margin-top: 233px;
 }
 
@@ -225,7 +225,7 @@ p {
   background-color: var(--light);
 }
 
-.cognitiveness-item--title {
+.cognitiveness-item-title {
   padding: 0;
 
   color: var(--white);
@@ -233,11 +233,11 @@ p {
   background-color: transparent;
 }
 
-.cognitiveness-item--title h2 {
+.cognitiveness-item-title h2 {
   font-size: 52px;
 }
 
-.cognitiveness-item__number {
+.cognitiveness-number {
   margin-bottom: 30px;
 
   color: var(--default-dark);
@@ -246,21 +246,21 @@ p {
   line-height: 1;
 }
 
-.cognitiveness-item__name {
+.cognitiveness-name {
   margin-bottom: 9px;
 }
 
-.cognitiveness-item--link:hover {
+.cognitiveness-link:hover {
   color: var(--white);
 
   background: var(--default);
 }
 
-.cognitiveness-item--link:hover .cognitiveness-item__number {
+.cognitiveness-link:hover .cognitiveness-number {
   color: var(--white);
 }
 
-.cognitiveness-item--link:hover .cognitiveness-item__name {
+.cognitiveness-link:hover .cognitiveness-name {
   color: var(--white);
 }
 
@@ -270,15 +270,15 @@ p {
   margin-bottom: 100px;
 }
 
-.main-column__content:last-child {
+.main-content:last-child {
   margin-left: 30px;
 }
 
-.main-column__content:first-child {
+.main-content:first-child {
   margin-right: 30px;
 }
 
-.main-column-img {
+.main-img {
   max-width: 540px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -339,7 +339,7 @@ footer {
   margin-bottom: 5px;
 }
 
-.form__control {
+.form-control {
   width: 394px;
   padding-left: 15px;
 
@@ -349,7 +349,7 @@ footer {
   border: 0;
 }
 
-.form__control:focus {
+.form-control:focus {
   outline: 0;
 }
 
