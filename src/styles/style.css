@@ -30,27 +30,51 @@ body {
   line-height: 1.6em;
 }
 
-.title {
-  font-weight: normal;
-  font-family: 'Neucha', cursive;
-  line-height: 1.2;
-}
-
 h1,
 .h1 {
+  font-weight: normal;
   font-size: 72px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
 }
 
 h2,
 .h2 {
   margin-bottom: 24px;
 
+  font-weight: normal;
+
   font-size: 60px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+}
+
+.h2-small {
+  font-size: 52px;
 }
 
 h3,
 .h3 {
+  font-weight: normal;
   font-size: 34px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
+}
+
+.color-dark-light {
+  color: var(--dark-light);
+}
+
+.background-white {
+  background: var(--white);
+}
+
+.color-dark {
+  color: var(--default-dark);
+}
+
+.color-orange {
+  color: var(--default);
 }
 
 section {
@@ -64,10 +88,6 @@ section {
 
   max-width: 1110px;
   margin: 0 auto;
-}
-
-.orange-text {
-  color: var(--default);
 }
 
 .link {
@@ -84,11 +104,11 @@ section {
   background: var(--light);
 }
 
-.section-dark {
+.bg-dark {
   background: var(--default-dark);
 }
 
-.section-gray {
+.bg-gray {
   background: var(--brown);
 }
 
@@ -96,7 +116,7 @@ section {
   color: var(--white);
 }
 
-.section-bg::before {
+.bg-questions::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -123,11 +143,7 @@ section {
   height: 525px;
 }
 
-header {
-  padding: 100px 0;
-}
-
-header h1 {
+.header-title {
   position: relative;
   z-index: 1;
 }
@@ -141,7 +157,7 @@ p {
   justify-content: space-between;
 }
 
-.section-header-column {
+.mt-23 {
   margin-top: 233px;
 }
 
@@ -198,8 +214,8 @@ p {
   padding-bottom: 0;
 }
 
-.section-what h2 {
-  margin-bottom: 36px;
+.mb-4 {
+  margin-bottom: 40px;
 }
 
 .section-cognitiveness {
@@ -209,16 +225,13 @@ p {
 .cognitiveness-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .cognitiveness-item {
   width: 350px;
-  min-height: 310px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px;
   padding: 24px;
 
-  color: var(--white);
   color: var(--dark);
 
   text-decoration: none;
@@ -232,10 +245,6 @@ p {
   color: var(--white);
 
   background-color: transparent;
-}
-
-.cognitiveness-item-title h2 {
-  font-size: 52px;
 }
 
 .cognitiveness-number {
@@ -286,32 +295,21 @@ p {
 }
 
 .main-head-text {
-  color: var(--dark-light);
-  font-size: 24px;
-}
+  margin-bottom: 8px;
 
-.main-head-text--white {
-  color: var(--white);
+  font-weight: normal;
+  font-size: 24px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2;
 }
 
 .how {
   margin-bottom: 20px;
   padding: 4px 8px;
 
-  color: var(--white);
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
-
-  background: var(--brown);
-}
-
-.background-white {
-  background: var(--white);
-}
-
-.color-dark {
-  color: var(--default-dark);
 }
 
 footer {
